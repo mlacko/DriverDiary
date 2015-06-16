@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">DriverDiary</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_record">Add record</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_cargallery">Car gallery</string>
+    <string name="title_activity_add_car">Add car</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="add_record">ADD RECORD</string>
+    <string name="add_newcar">ADD NEW CAR</string>
+    <string name="show_cargallery">SHOW CAR GALLERY</string>
+    <string name="brand">Brand</string>
+    <string name="model">Model</string>
+    <string name="spz">Registration plate</string>
+    <string name="take_photo">TAKE PHOTO</string>
+    <string name="save">SAVE</string>
+    <string name="capture">CAPTURE</string>
+    <string name="decline">DECLINE</string>
+    <string name="not_enough_positions">Not enough positions</string>
+    <string name="location_services">Location Services Not Active</string>
+    <string name="permission">Please enable Location Services and GPS</string>
+    <string name="succesfull_record">Record created successfully</string>
+    <string name="create_failed">Create failed</string>
+    <string name="favourite_car">Set car as favourite</string>
+    <string name="unfortunately">Unfortunately there is nothing here</string>
+    <string name="not_enough_data">Please fill in all text fields</string>
+    <string name="no_favourite_car">Favourite car is not set,to set a car press and hold thumbnail in gallery</string>
+    <string name="gps_status_searching">Searching for GPS signal</string>
+    <string name="gps_status_locked">Found GPS signal</string>
+    <string name="send">SHARE</string>
+    <string name="no_selected_vehicle">No selected vehicle</string>
+    <string name="title_activity_swipe_gallery">Gallery</string>
+</resources>

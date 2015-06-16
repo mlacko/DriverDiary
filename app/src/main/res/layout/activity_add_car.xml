@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="sk.upjs.michal.driverdiary.AddCarActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/brand_textView"
+                android:text="@string/brand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <EditText
+                android:hint="e.g. Audi, BMW, VW, ..."
+                android:id="@+id/brand_editText"
+                android:layout_below="@id/brand_textView"
+                android:layout_centerHorizontal="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:imeOptions="actionNext"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/model_textView"
+                android:text="@string/model"
+                android:layout_below="@id/brand_editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:hint="Polo, Golf, Mondeo, A6, ..."
+                android:id="@+id/model_editText"
+                android:layout_below="@id/model_textView"
+                android:layout_centerHorizontal="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:imeOptions="actionNext"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/spz_textView"
+                android:text="@string/spz"
+                android:layout_below="@id/model_editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:hint="AA-123BB"
+                android:id="@+id/spz_editText"
+                android:layout_below="@id/spz_textView"
+                android:layout_centerHorizontal="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:imeOptions="actionDone"/>
+
+            <Button
+                android:id="@+id/take_photo_button"
+                android:background="@drawable/button_bcg"
+                android:text="@string/take_photo"
+                android:layout_below="@id/spz_editText"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/save_car_button"
+                android:background="@drawable/button_bcg"
+                android:text="@string/save"
+                android:layout_below="@id/take_photo_button"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        </ScrollView>
+
+</RelativeLayout>

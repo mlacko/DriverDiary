@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">DriverDiary</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Nastavenia</string>
+    <string name="title_activity_add_record">Pridať záznam</string>
+    <string name="title_activity_add_car">Pridať vozidlo</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_cargallery">Galéria</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="add_record">PRIDAŤ ZÁZNAM</string>
+    <string name="add_newcar">PRIDAŤ NOVÉ VOZIDLO</string>
+    <string name="show_cargallery">ZOBRAZIŤ GALÉRIU</string>
+    <string name="brand">Značka</string>
+    <string name="model">Model</string>
+    <string name="spz">ŠPZ</string>
+    <string name="take_photo">ODFOTIŤ</string>
+    <string name="save">ULOŽIŤ</string>
+    <string name="capture">NASNÍMAŤ</string>
+    <string name="decline">ODMIETNUŤ</string>
+    <string name="not_enough_positions">Príliš málo pozícií</string>
+    <string name="location_services">Lokalizačné služby nepovolené</string>
+    <string name="permission">Prosím povoľte lokalizačné služby a GPS</string>
+    <string name="succesfull_record">Záznam úspešne vytvorený</string>
+    <string name="create_failed">Vytváranie zlyhalo</string>
+    <string name="favourite_car">Nastaviť vozidlo ako obľúbené</string>
+    <string name="unfortunately">Bohužiaľ, galéria je prázdna</string>
+    <string name="not_enough_data">Prosím vyplňte všetky textové polia</string>
+    <string name="no_favourite_car">Nie je zvolené obľúbené auto, pre zvolenie stlačte a podržte miniatúru v galérii</string>
+    <string name="gps_status_searching">Hľadám satelity GPS</string>
+    <string name="gps_status_locked">GPS pripojené</string>
+    <string name="send">Zdieľať</string>
+    <string name="no_selected_vehicle">Nebolo zvolené vozidlo</string>
+    <string name="title_activity_swipe_gallery">Galéria</string>
+</resources>

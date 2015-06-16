@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/main_bcg"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/predefined_car_imageView"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/predefined_spz_textView"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/predefined_car_imageView"
+                android:textColor = "#fff"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <Button
+                android:id="@+id/add_car_record_button"
+                android:background="@drawable/button_bcg"
+                android:text="@string/add_record"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/predefined_spz_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+
+
+            <Button
+                android:id="@+id/add_record_button"
+                android:background="@drawable/button_bcg"
+                android:text="@string/add_newcar"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/add_car_record_button"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/gallery_button"
+                android:background="@drawable/button_bcg"
+                android:text="@string/show_cargallery"
+                android:layout_below="@+id/add_record_button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
